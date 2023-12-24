@@ -43,7 +43,7 @@ jobs:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: django-github-action
-          environment_name: Django-github-action-env
+          environment_name: django
           version_label: ${{ github.sha }}
           region: "ap-south-1"  # Corrected AWS region code
           deployment_package: deploy.zip
